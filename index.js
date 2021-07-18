@@ -94,3 +94,31 @@ const decompress = require('decompress');
 // }
 
 // end of third tusk
+
+
+
+// sync third task
+//alternative solving problem
+
+// function read(filePath) {
+//     const fileDir = getDir(filePath)
+//     for (let dir of fileDir) {
+//         const newPath = path.join(filePath, dir);
+//         const stat = getStat(newPath)
+//
+//         if (stat.isDirectory()) {
+//             console.log(`Folder: ${dir}`)
+//             read(newPath)
+//         } else {
+//             console.log(`File: ${dir}`)
+//         }
+//     }
+// }
+//
+// function getDir(path) {
+//     return fs.readdirSync(path);
+// }
+//
+// function getStat(path) {
+//     return fs.statSync(path)
+// }
